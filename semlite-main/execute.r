@@ -1,5 +1,5 @@
 library(reticulate)
-py_install("git+https://github.com/Fonseca367/semlita/tree/main/semlite-main", pip = TRUE)
+py_install("git+https://github.com/Fonseca367/semlita/tree/main/semlite-main.git", pip = TRUE)
 install.packages("lavaan")
 sem <- import("semlite.moderation")
 
